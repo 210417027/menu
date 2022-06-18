@@ -6,16 +6,16 @@ const menu = [
     category: "meet",
     price: 285,
     img: "./images/main1.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables. `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
   },
   {
     id: 2,
-    title: "Beef Belly",
+    title: "BeefBelly",
     chinese: "培根牛肉鍋",
     category: "meet",
     price: 275,
     img: "./images/main2.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables. `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const menu = [
     category: "meet",
     price: 269,
     img: "./images/main3.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const menu = [
     category: "meet",
     price: 259,
     img: "./images/main4.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables. `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const menu = [
     category: "meet",
     price: 275,
     img: "./images/main5.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables. `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const menu = [
     category: "meet",
     price: 275,
     img: "./images/main6.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const menu = [
     category: "meet",
     price: 275,
     img: "./images/main7.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const menu = [
     category: "meet",
     price: 265,
     img: "./images/main8.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.  `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.  `,
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const menu = [
     category: "meet",
     price: 259,
     img: "./images/main9.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
    {
     id: 10,
@@ -114,7 +114,7 @@ const menu = [
     category: "seafood",
     price: 330,
     img: "./images/hotpot1.jpg",
-    desc: ``,
+    desc: `Not suitable for people allergic to seafood`,
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ const menu = [
     category: "seafood",
     price: 330,
     img: "./images/hotpot2.jpg",
-    desc: ``,
+    desc: `Not suitable for people allergic to seafood.`,
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const menu = [
     category: "seafood",
     price: 390,
     img: "./images/hotpot3.jpg",
-    desc: ``,
+    desc: `2-Kinds Of Seafood can choose Oysters,Clams, Shrimp, Fish Fillet.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const menu = [
     category: "seafood",
     price: 340,
     img: "./images/hotpot5.jpg",
-    desc: ``,
+    desc: `Not suitable for people allergic to seafood.`,
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ const menu = [
     category: "seafood",
     price: 340,
     img: "./images/41.jpg",
-    desc: ``,
+    desc: `Not suitable for people allergic to seafood.`,
   },
   {
     id: 17,
@@ -159,7 +159,7 @@ const menu = [
     category: "seafood",
     price: 380,
     img: "./images/42.jpg",
-    desc: ``,
+    desc: `3-Kinds Of Seafood can choose Oysters,Clams, Shrimp, Fish Fillet.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 18,
@@ -168,7 +168,7 @@ const menu = [
     category: "seafood+meet",
     price: 349,
     img: "./images/hotpot10.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 19,
@@ -177,7 +177,7 @@ const menu = [
     category: "seafood+meet",
     price: 349,
     img: "./images/33.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 20,
@@ -186,7 +186,7 @@ const menu = [
     category: "seafood+meet",
     price: 349,
     img: "./images/hotpot12.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 21,
@@ -195,7 +195,7 @@ const menu = [
     category: "seafood+meet",
     price: 415,
     img: "./images/36.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
     id: 22,
@@ -204,7 +204,7 @@ const menu = [
     category: "seafood+meet",
     price: 349,
     img: "./images/hotpot14.jpg",
-    desc: `Can choose A or B <br>A is more meat <br>B is more vegetables.`,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
 ];
 
