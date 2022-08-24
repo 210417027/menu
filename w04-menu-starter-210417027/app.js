@@ -1,12 +1,12 @@
 const menu = [
   {
     id: 1,
-    title: "Beef",
-    chinese: "大眾牛肉鍋",
+    title: "Duck Drumstick",
+    chinese: "鴨腿肉片鍋",
     category: "meet",
-    price: 285,
-    img: "./images/main1.jpg",
-    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
+    price: 259,
+    img: "./images/main9.jpg",
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
     id: 2,
@@ -73,15 +73,24 @@ const menu = [
   },
   {
     id: 9,
-    title: "Duck Drumstick",
-    chinese: "鴨腿肉片鍋",
+    title: "Beef aging",
+    chinese: "熟成牛肉鍋",
     category: "meet",
-    price: 259,
-    img: "./images/main9.jpg",
-    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
+    price: 299,
+    img: "./images/main13.jpg",
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.  `,
+  },
+  {
+    id: 10,
+    title: "Top Blade Steak",
+    chinese: "板腱牛肉鍋",
+    category: "meet",
+    price: 345,
+    img: "./images/main1.jpg",
+    desc: ``,
   },
    {
-    id: 10,
+    id: 11,
     title: "Beef Sirloin",
     chinese: "沙朗牛肉鍋",
     category: "meet",
@@ -90,7 +99,7 @@ const menu = [
     desc: ``,
   },
   {
-    id: 11,
+    id: 12,
     title: "Pork Cheek",
     chinese: "松阪豬肉鍋",
     category: "meet",
@@ -99,7 +108,7 @@ const menu = [
     desc: ``,
   },
   {
-    id: 12,
+    id: 13,
     title: "Flat Iron Steak",
     chinese: "霜降牛肉鍋",
     category: "meet",
@@ -108,7 +117,7 @@ const menu = [
     desc: ``,
   },
   {
-    id: 13,
+    id: 14,
     title: "Clams",
     chinese: "蛤蜊鍋",
     category: "seafood",
@@ -117,7 +126,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood`,
   },
   {
-    id: 14,
+    id: 15,
     title: "Oysters",
     chinese: "鮮蚵鍋",
     category: "seafood",
@@ -126,7 +135,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood.`,
   },
   {
-    id: 15,
+    id: 16,
     title: "2-Kinds of Seafood",
     chinese: "海鮮雙拼鍋",
     category: "seafood",
@@ -135,7 +144,7 @@ const menu = [
     desc: `2-Kinds Of Seafood can choose Oysters,Clams, Shrimp, Fish Fillet.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 16,
+    id: 17,
     title: "Shrimp",
     chinese: "鮮蝦鍋",
     category: "seafood",
@@ -144,7 +153,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood.`,
   },
   {
-    id: 17,
+    id: 18,
     title: "Fish Fillet",
     chinese: "魚片鍋",
     category: "seafood",
@@ -153,7 +162,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood.`,
   },
   {
-    id: 17,
+    id: 19,
     title: "3-Kinds of Seafood",
     chinese: "三鮮鍋",
     category: "seafood",
@@ -162,7 +171,7 @@ const menu = [
     desc: `3-Kinds Of Seafood can choose Oysters,Clams, Shrimp, Fish Fillet.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 18,
+    id: 20,
     title: "Oysters With Choice of Meat",
     chinese: "鮮蚵肉片鍋",
     category: "seafood+meet",
@@ -171,7 +180,7 @@ const menu = [
     desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 19,
+    id: 21,
     title: "Fish Fillet with Choice of Meat",
     chinese: "鮮魚肉片鍋",
     category: "seafood+meet",
@@ -180,7 +189,7 @@ const menu = [
     desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 20,
+    id: 22,
     title: "Shrimp with Choice of Meat",
     chinese: "鮮蝦肉片鍋",
     category: "seafood+meet",
@@ -189,7 +198,7 @@ const menu = [
     desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 21,
+    id: 23,
     title: "3-Kinds of Seafood with Choice of Meat",
     chinese: "三鮮肉片鍋",
     category: "seafood+meet",
@@ -198,7 +207,7 @@ const menu = [
     desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 22,
+    id: 24,
     title: "Clams with Choice of Meat",
     chinese: "蛤蜊肉片鍋",
     category: "seafood+meet",
@@ -207,7 +216,7 @@ const menu = [
     desc: `Can choose A or B. A is more meat ,B is more vegetables.<br>Not suitable for people allergic to seafood.`,
   },
   {
-    id: 23,
+    id: 25,
     title: "Vegetarian",
     chinese: "清香素食鍋",
     category: "Vegetarian",
@@ -216,7 +225,7 @@ const menu = [
     desc: `Vegetarians please order this`,
   },
   {
-    id: 24,
+    id: 26,
     title: "Golden Shrimp Starch",
     chinese: "金多蝦漿",
     category: "Recommend",
@@ -225,7 +234,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood.`,
   },
   {
-    id: 25,
+    id: 27,
     title: "Pig Blood Rice Cake",
     chinese: "豬血糕",
     category: "Recommend",
@@ -234,7 +243,7 @@ const menu = [
     desc: `Pig Blood Rice Cake.`,
   },
   {
-    id: 26,
+    id: 28,
     title: "Taro",
     chinese: "芋頭",
     category: "Recommend",
@@ -243,7 +252,7 @@ const menu = [
     desc: `Taro is a tropical plant grown primarily for its edible corms.`,
   },
   {
-    id: 27,
+    id: 29,
     title: "Fish Ball with Egg Stuffing",
     chinese: "魚包蛋",
     category: "Recommend",
@@ -252,7 +261,7 @@ const menu = [
     desc: `Fish Ball with Egg Stuffing.`,
   },
   {
-    id: 28,
+    id: 30,
     title: "Oily Chicken Platter",
     chinese: "油雞",
     category: "Recommend",
@@ -261,7 +270,7 @@ const menu = [
     desc: `Oily Chicken Platter.`,
   },
   {
-    id: 29,
+    id: 31,
     title: "Deep-Fried Pork Ribs",
     chinese: "排骨酥",
     category: "Recommend",
@@ -270,7 +279,7 @@ const menu = [
     desc: `Deep-Fried Pork Ribs.`,
   },
   {
-    id: 30,
+    id: 32,
     title: "Spicy Duck Blood",
     chinese: "麻辣鴨血",
     category: "Recommend",
@@ -279,7 +288,7 @@ const menu = [
     desc: `Hot and Spicy Duck Blood Jelly.`,
   },
   {
-    id: 31,
+    id: 33,
     title: "Drunken Chicken Platter",
     chinese: "醉雞盤",
     category: "Recommend",
@@ -288,7 +297,7 @@ const menu = [
     desc: `Drunken Chicken Platter.`,
   },
   {
-    id: 32,
+    id: 34,
     title: "Lobster Salad Ball",
     chinese: "龍蝦沙拉丸",
     category: "Recommend",
@@ -297,7 +306,7 @@ const menu = [
     desc: `Lobster Salad Ball.`,
   },
   {
-    id: 33,
+    id: 35,
     title: "Egg",
     chinese: "蛋",
     category: "sideMeal",
@@ -306,7 +315,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 34,
+    id: 36,
     title: "rice",
     chinese: "飯",
     category: "sideMeal",
@@ -315,7 +324,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 35,
+    id: 37,
     title: "winter<br>noodles",
     chinese: "冬粉",
     category: "sideMeal",
@@ -324,7 +333,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 36,
+    id: 38,
     title: "noodles",
     chinese: "烏龍麵",
     category: "sideMeal",
@@ -333,12 +342,21 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 37,
+    id: 39,
     title: "noodles oodles",
     chinese: "王子麵",
     category: "sideMeal",
     price: 15,
     img: "./images/2.jpg",
+    desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
+  },
+  {
+    id: 40,
+    title: "Braised pork rice",
+    chinese: "魯肉飯",
+    category: "sideMeal",
+    price: 25,
+    img: "./images/rice2.jpg",
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
 
