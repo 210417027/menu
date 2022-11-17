@@ -285,7 +285,7 @@ const menu = [
     category: "sideMeal",
     price: 25,
     img: "https://www.chientu.com.tw/upload/web/product/carte4.jpg",
-    desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one or +NT10 upgrade Braised pork rice.`,
+    desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one or +NT10 Tossed Rice with Pork Lard.`,
   },
   {
     id: 33,
